@@ -1,0 +1,180 @@
+body{
+  background: #FFFFFF;
+}
+
+.all{
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+  margin-bottom: 20px;
+}
+
+.top{
+  text-align: center;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.nav{
+  font-size: 15px;
+  padding: 10px;
+  margin-left: -10px;
+}
+
+.nav a{
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+  color: #6A6A6A;
+  justify-content: space-between;
+}
+
+#active{
+  color: #000000;
+}
+
+.nav a:hover{
+  color: #000000;
+}
+.k, button, .b a{
+  text-decoration: none;
+  border: 1px solid #FF0000;
+  border-radius: 15px;
+  padding: 5px;
+  background: #FF0000;
+  width: 75px;
+  height: 30px;
+  color: #FFFFFF;
+}
+
+.b{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.k:hover{
+  opacity: 70%;
+}
+
+.fo{
+  text-align: center;
+  color: #F4F4F4;
+  background-image: url(img/bg.png);
+  height: 300px;
+  background-size: cover;
+}
+
+.fo2{
+  text-align: center;
+  color: #000000;
+  border: 1px solid #FF0000;
+  border-radius: 5px;
+  height: 200px;
+  background-size: cover;
+}
+
+.te{
+  padding: 45px;
+}
+
+.te a{
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 5px;
+  border-radius: 6px;
+  
+}
+
+.te a:hover{
+  border: #FF0000;
+  background: #FF0000;
+}
+
+.pro1{
+  text-align: center;
+}
+
+.pro1 h3{
+  right: 0;
+  left: 0;
+  padding: 20px 0;
+  background: #FF0000;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.pro1 p{
+  padding: 20px 0;
+}
+
+.pro1 a{
+  padding: 20px 0;
+  text-decoration: none;
+  border: 1px solid #FF0000;
+  border-radius: 6px;
+  padding: 5px;
+  background: #FF0000;
+  color: #FFFFFF;
+}
+
+.sign{
+  text-align: center;
+  padding: 20px;
+}
+
+form{
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+  height: 300px;
+  border-radius: 6px;
+}
+
+.inp input{
+  width: 80%;
+  padding: 9px;
+  outline: none;
+  border: 1px solid;
+  border-radius: 5px;
+} 
+.inp{
+  margin-bottom: 10px;
+}
+
+.btn{
+  width: 80%;
+}
+
+.end{
+  align-items: center;
+  text-align: center;
+  background: #FFE000;
+  padding: 30px;
+  font-size: 15.9px;
+}
+
+.end img{
+  width: 150px;
+}
+
+#number{
+  float: left;
+}
+
+.ext{
+  background: #FFFFFF;
+  width: 15%;
+  border-radius: 10px;
+}
+
+.ext img{
+  width: 35px;
+  margin: 5px;
+}
+
+
+.ext:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+}
